@@ -1,0 +1,252 @@
+body {
+    font-family: "Italiana", sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    background-color: slategray;
+}
+
+.container {
+    max-width: 1440px;
+    color: #0f0d3e;
+    margin: 0;
+    padding: 20px;
+}
+
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: slategray;
+    color: white;
+    padding: 80px 0;
+}
+
+.icons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    padding: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    gap: 20px;
+    font-size: 30px;
+    color: #00004d;
+    background-color: slategray;
+}
+
+.logo {
+    margin: 0 40px;
+}
+
+.name {
+    font-size: 98px;
+    font-weight: bold;
+    padding-top: 60px;
+}
+
+.navigation {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    align-items: center;
+    background-color: slategray;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    font-size: 32px;
+    gap: 60px;
+    padding-left: 250px;
+    
+}
+
+.navigation a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+.navigation a:hover {
+    color: #0f0d3e;
+}
+
+.divider1 {
+    display: flex;
+    background-color: #0f0d3e;
+    padding: 12px;
+}
+
+.order {
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px 60px;
+    width: 100%;
+    
+}
+
+.order button {
+    background-color: #0c0c3d;
+    color: white;
+    font-size: 20px;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.order button:hover {
+    background-color: #1a1a80;
+}
+
+.featured {
+    display: flex;
+    background-color: #cfd6da;
+    padding-top: 50px;
+    padding-bottom: 175px;
+}
+
+.menu {
+    background-color: #cfd6da;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    margin-left: 220px;
+    margin-right:220px;
+    margin-bottom: 55px;
+}
+
+.coffee {
+    background-color: #cfd6da;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    margin-left: 220px;
+    margin-right: 220px;
+    margin-bottom: 55px;
+}
+
+.wholesale {
+    background-color: #cfd6da ;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    margin-left: 220px;
+    margin-right: 220px;
+    margin-bottom: 55px;
+}
+
+.image-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:280px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.image-box {
+    text-align: center;
+}
+.divider2 {
+    display: flex;
+    background-color: #0f0d3e;
+    padding: 12px;
+}
+
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 220px;
+}
+.footimage {
+    padding-top: 50px;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+address {
+    color: #0f0d3e;
+    font-size: 35px;
+}
+
+.info1 {
+    color: #0f0d3e;
+    padding-top: 10px;
+    font-size: 35px;
+    margin-left: 120px;
+}
+
+.info1 a {
+    color: #0f0d3e;
+}
+
+.socials {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 20px;
+    gap: 20px;
+    color: #0f0d3e;
+}
+
+h1 {
+    color: #0f0d3e;
+    text-align: center;
+    font-size: 68px;
+    margin-top: 30px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+h2 {
+    color: #0f0d3e;
+    text-align: center;
+    font-size: 55px;
+    margin-top: 30px;
+    
+}
+
+h3 {
+    color: #0f0d3e;
+    text-align: center;
+    font-size: 38px;
+}
+
+p {
+    color: #0f0d3e;
+    text-align: center;
+    font-size: 28px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+    .header,
+    .navigation {
+        flex-direction: column;
+        gap: 10px;
+        font-size: 22px;
+        word-spacing: normal;
+    }
+    .image-row,
+    .footer {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+}
+
+
+
+.order button {
+    width: 20%;
+    font-size: 20px;
+    padding: 15px;
+    border-radius: 10px;
+    }
