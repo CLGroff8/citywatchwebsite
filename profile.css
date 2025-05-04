@@ -1,0 +1,149 @@
+body {
+    background-color: #cfd6da;
+    font-family: "Italiana", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+.return-home {
+  display: flex;
+  justify-content: flex-start;
+  padding: 40px 0;
+}
+
+.button-link {
+  background-color: #191942;
+  color: white;
+  font-size: 20px;
+  padding: 12px 24px;
+  text-decoration: none;
+  border-radius: 8px;
+  font-family: "Italiana",sans-serif;
+  transition: background-color 0.3s ease;
+}
+
+.button-link:hover {
+  background-color: #333366;
+}
+
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.divider {
+    background-color: #191942;
+    padding: 2px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 80px;
+
+}
+.profile-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .profile-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .profile-picture {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 1rem;
+  }
+  
+  .profile-details p {
+    margin: 0.5rem 0;
+    font-size: 1.1rem;
+  }
+  
+  .profile-actions button {
+    margin: 0.5rem;
+    padding: 16px 32px;
+    font-size: 18px;
+    border: none;
+    background-color: #191942;
+    font-family: "Italiana", sans-serif;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    min-width: 180px;
+  }
+  
+  .profile-actions button:hover {
+    background-color: #191942;
+  }
+
+
+
+@media (min-width: 600px) {
+    .nav-list {
+      flex-direction: row;
+      justify-content: center;
+      gap: 30px;
+    }
+  
+    .profile-info {
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      gap: 2rem;
+    }
+  
+    .profile-details {
+      text-align: left;
+    }
+  
+    .profile-actions {
+      flex-direction: row;
+      justify-content: center;
+    }
+
+  h1 {
+    font-size: 120px;
+    text-align: center;
+    color: #191942;
+  }
+
+  h2 {
+    color: #191942;
+    font-size: 65px;
+  }
+ 
+  @media (max-width: 599px) {
+    .profile-actions button {
+      width: 100%;
+      font-size: 16px;
+    }
+  
+    .profile-container {
+      padding: 1rem;
+    }
+  }
+  
+
+}
