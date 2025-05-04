@@ -1,0 +1,164 @@
+
+body {
+    background-color: cfd6da;
+    font-family: "Italiana", sans-serif;
+    padding: 30px;
+    color: #191942;
+}
+
+.return-home {
+    display: flex;
+    justify-content: flex-start;
+    padding: 40px 0;
+}
+
+.button-link {
+    background-color: #191942;
+    color: white;
+    font-size: 20px;
+    padding: 12px 24px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-family: "Italiana", sans-serif;
+    transition: background-color 0.3s ease;
+}
+.divider {
+    background-color: #191942;
+    padding: 2px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.signup-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #cfd6da;
+}
+.signup-form {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    max-width: 400px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.signup-form h2 {
+    font-size: 40px;
+    color: #0f0d3e;
+    margin-bottom: 20px;
+}
+
+.signup-form label {
+    font-size: 18px;
+    color: #191942;
+    display: block;
+    margin-bottom: 8px;
+}
+
+.signup-form input {
+    width: 100%;
+    padding: 12px;
+    font-size: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+.signup-form button {
+    background-color: #0f0d3e;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.signup-form button:hover {
+    background-color: #191942;
+}
+
+h3 {
+    text-align: center;
+}
+
+p {
+    font-size: 35px;
+    margin-left: 200px;
+    font-size: 45px;
+}
+
+@media (max-width: 480px) {
+    .divider {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .signup-wrapper {
+        height: auto;
+        padding: 0px;
+    }
+
+    .signup-form {
+        max-width: 100%;
+        padding: 15px;
+    }
+
+    .signup-form h2 {
+        font-size: 30px;
+    }
+
+    .signup-form input {
+        font-size: 16px;
+    }
+
+    .signup-form button {
+        font-size: 16px;
+    }
+
+    p {
+        font-size: 30px;
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .divider {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    .signup-form {
+        max-width: 80%;
+    }
+
+    .signup-form h2 {
+        font-size: 35px;
+    }
+
+    .signup-form input {
+        font-size: 18px;
+    }
+
+    .signup-form button {
+        font-size: 18px;
+    }
+
+    p {
+        font-size: 40px;
+    }
+}
+
+@media (min-width: 768px) {
+    .signup-form {
+        max-width: 400px; 
+    }
+
+    p {
+        font-size: 45px;
+        margin-left: 200px; 
+    }
+}
