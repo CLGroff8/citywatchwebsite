@@ -5,6 +5,38 @@ body {
     color: #191942;
 }
 
+.return-home {
+    display: flex;
+    justify-content: flex-start;
+    padding: 40px 0;
+}
+.button-link {
+    background-color: #191942;
+    color: white;
+    font-size: 20px;
+    padding: 12px 24px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-family: "Italiana", sans-serif;
+    transition: background-color 0.3s ease;
+}
+
+.button-link:hover {
+    background-color: #333366;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+}
+.divider {
+    background-color: #191942;
+    padding: 2px;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
 .menu-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
@@ -22,12 +54,16 @@ h1 {
     font-size: 120px;
     display: flex;
     text-align: center;
+    justify-content: center;
+    margin-bottom: 100px;
 }
 
 h2 {
+    justify-content: center;
     font-size: 60px;
     color: #0f0d3e;
     text-align: center;
+    margin-top: 200px;
 }
 
 h3 {
@@ -40,3 +76,75 @@ p {
     color: #0f0d3e;
 }
 
+@media (max-width: 1200px) {
+    .logo {
+        gap: 20px; 
+    }
+
+    .divider {
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+
+    h1 {
+        font-size: 100px; 
+    }
+
+    h2 {
+        font-size: 50px; 
+    }
+}
+
+@media (max-width: 768px) {
+    .divider {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    h1 {
+        font-size: 80px; 
+    }
+
+    h2 {
+        font-size: 40px;
+    }
+
+    .menu-grid {
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); 
+    }
+
+    .logo {
+        gap: 10px; 
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 60px; 
+    }
+
+    h2 {
+        font-size: 35px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    .divider {
+        margin-left: 10px;
+        margin-right: 10px; 
+    }
+
+    .logo {
+        gap: 10px;
+    }
+
+    .menu-grid {
+        grid-template-columns: 1fr; 
+    }
+
+    .menu-item {
+        padding: 15px; 
+    }
+}
