@@ -1,0 +1,161 @@
+body {
+    background-color: #cfd6da;
+    font-family: "Italiana", sans-serif;
+    padding: 30px;
+    color: #191942;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+}
+
+.divider {
+    background-color: #191942;
+    padding: 2px;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    max-width: 600px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.contact-form {
+    max-width: 600px;
+    margin: 40px;
+    font-size: 18px;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 20px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.contact-form button {
+    padding: 14px 28px;
+    font-size: 18px;
+    background-color: #191942;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #191942;
+}
+
+h1 {
+    text-align: center;
+    font-size: 120px;
+}
+
+h2 {
+    font-size: 48px;
+    text-align: center;
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 3rem;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+
+    .logo {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .contact-form button {
+        font-size: 1rem;
+        padding: 12px 20px;
+    }
+
+    .divider {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .nav-list {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 5rem;
+    }
+
+    h2 {
+        font-size: 3rem;
+    }
+
+    .form {
+        margin-top: 30px;
+        max-width: 90%;
+    }
+
+    .contact-form button {
+        font-size: 1.2rem;
+        padding: 14px 25px;
+    }
+
+    .nav-list {
+        flex-direction: row;
+        justify-content: center;
+    }
+}
+
+
+@media (min-width: 1200px) {
+    .form {
+        margin-top: 50px;
+        max-width: 600px;
+    }
+
+    .logo {
+        gap: 40px;
+    }
+
+    .divider {
+        margin-left: 300px;
+        margin-right: 300px;
+    }
+
+    h1 {
+        font-size: 120px;
+    }
+
+    h2 {
+        font-size: 48px;
+    }
+}
