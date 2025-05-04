@@ -1,0 +1,110 @@
+body {
+    background-color: #cfd6da;
+}
+
+.return-home {
+  display: flex;
+  justify-content: flex-start;
+  padding: 40px 0;
+}
+
+.button-link {
+  background-color: #191942;
+  color: white;
+  font-size: 20px;
+  padding: 12px 24px;
+  text-decoration: none;
+  border-radius: 8px;
+  font-family: "Italiana", sans-serif;
+  transition: background-color 0.3s ease;
+}
+
+.button-link:hover {
+  background-color: #333366;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.divider {
+    background-color: #191942;
+    padding: 2px;
+    margin-right: 220px;
+    margin-left: 220px;
+    margin-bottom: 200px;
+}
+
+
+
+.checkout-button {
+    padding: 15px 30px;
+    font-size: 18px;
+    background-color: #191942;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.checkout-button:hover {
+    background-color: #cfd6da;
+}
+
+.cart-summary {
+    font-size: 80px;
+    font-family: "Italiana" sans-serif;
+}
+
+h1 {
+    color: #191942;
+    font-family: "Italiana", sans-serif;
+    font-size: 80px;
+    text-align: center;
+
+}
+
+h2 {
+    font-family: "Italiana", sans-serif;
+    color: #191942;
+    font-size: 80px;
+    text-align: center;
+}
+
+
+
+p {
+    font-family: "Italiana", sans-serif;
+    color: #191942;
+    font-size: 50px;
+}
+
+@media (max-width: 768px) {
+    .checkout-button {
+      font-size: 16px;
+      padding: 10px 20px;
+    }
+  
+    .cart-summary {
+      font-size: 40px;
+    }
+  
+    h1, h2 {
+      font-size: 2.5rem;
+    }
+  
+    p {
+      font-size: 1.2rem;
+    }
+  
+    .nav-list li {
+      margin: 0.5rem;
+    }
+  
+    .icons {
+      flex-direction: row;
+      justify-content: center;
+    }
+  }
